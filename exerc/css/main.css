@@ -1,23 +1,41 @@
-h1 {
-    color: blueviolet;
+.tabela{
+    margin: 0 auto;
+    box-shadow: 0px 0px 14px -7px #000;
+    background-color: #FFF;
+}
+table{
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    padding: 0;
+    box-shadow: 0px 0px 14px -7px rgba(0, 0, 0, 0.5);
+    font-family: Arial;
+    font-size: 12px;
+    color: #999999;
+    border: 0;
+    border-bottom: 1px solid #00cccc;
+}
+table tr{
+    border: 0;
+    background-color: #FAFAFA;
 }
 
-.input-group {
-    margin-bottom: 16px;
+table tr td{
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 0;
+    border-left: 1px solid #EEEEEE;
+    border-right: 0;
+    padding: 12px 35px;
+    margin: 0;
+    text-align: center;
 }
+table tr:hover{
+    border: 10px solid #F4F4F4;
+    color: #555555;
+    cursor: pointer;
+    background-color: #F4F4F4;
 
-label {
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-input {
-    border: none;
-    background-color: rgb(165, 165, 165);
-    border-radius: 10px;
-}
-
-.caixa {
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
+#minhatabela{
+    color: #FFF;
+    background-color: #00cccc;
 }
